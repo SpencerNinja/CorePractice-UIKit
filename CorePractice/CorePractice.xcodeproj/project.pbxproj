@@ -17,6 +17,7 @@
 		0B5AC95928D78425002D0472 /* CorePracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AC95828D78425002D0472 /* CorePracticeTests.swift */; };
 		0B5AC96328D78425002D0472 /* CorePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AC96228D78425002D0472 /* CorePracticeUITests.swift */; };
 		0B5AC96528D78425002D0472 /* CorePracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AC96428D78425002D0472 /* CorePracticeUITestsLaunchTests.swift */; };
+		0B5AC97728D7888E002D0472 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B5AC97628D7888E002D0472 /* ApiManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		0B5AC95E28D78425002D0472 /* CorePracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CorePracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B5AC96228D78425002D0472 /* CorePracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePracticeUITests.swift; sourceTree = "<group>"; };
 		0B5AC96428D78425002D0472 /* CorePracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0B5AC97628D7888E002D0472 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		0B5AC97228D7844F002D0472 /* ApiManager */ = {
 			isa = PBXGroup;
 			children = (
+				0B5AC97628D7888E002D0472 /* ApiManager.swift */,
 			);
 			name = ApiManager;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				0B5AC94328D78423002D0472 /* ViewController.swift in Sources */,
 				0B5AC94928D78423002D0472 /* CorePractice.xcdatamodeld in Sources */,
+				0B5AC97728D7888E002D0472 /* ApiManager.swift in Sources */,
 				0B5AC93F28D78423002D0472 /* AppDelegate.swift in Sources */,
 				0B5AC94128D78423002D0472 /* SceneDelegate.swift in Sources */,
 			);
